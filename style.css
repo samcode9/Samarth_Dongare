@@ -1,3 +1,23 @@
+header{
+    
+    background-color: rgb(32, 31, 31);
+    padding: 10px;
+}
+#headertext{
+    text-align: center;
+    color: white;
+}
 .section1 {
-    background-color: rgb(238, 239, 240);
+    background-color: rgb(228, 230, 232);
+}
+h2 {
+    color: black;
+}
+footer{
+    background-color: rgb(32, 31, 31);
+    padding: 10px;
+}
+#footertext {
+    text-align: center;
+    color: white;
 }
