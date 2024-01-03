@@ -3,7 +3,7 @@ header{
     background-color: rgb(32, 31, 31);
     padding: 10px;
 }
-#headertext{
+.headertext{
     text-align: center;
     color: white;
 }
@@ -44,4 +44,7 @@ footer{
     border-radius: 0.1cm;
     padding: 0.0035%;
     font-size: 12px;
+}
+.underdevelopment{
+    text-align: center;
 }
