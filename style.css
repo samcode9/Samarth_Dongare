@@ -16,7 +16,7 @@ header{
 }
 .section1 {
     background-color: rgb(228, 230, 232);
-    border-radius: 0.5cm;
+    border-radius: 12px;
     padding: 16px;
 }
 h2 {
