@@ -52,3 +52,8 @@ footer{
     font-size: 18px;
     font-weight: 550;
 }
+@media screen and (max-width: 768px) {
+    .mainalign {
+        width: 90%;
+    }
+}
