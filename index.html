@@ -11,19 +11,33 @@
         <header>
             <div class="headertext">
                 <h1>SAMARTH DONGARE</h1>
+                <div class="nav-toggle" onclick="toggleNav()">☰</div>
+                    <div class="nav-panel" id="navPanel">
+                        <nav>
+                        <a href="#about" >Introduction</a>
+                        <a href="#edu" >Education</a>
+                        <a href="#proj" >Projects</a>
+                        <a href="#ach" >Achievements</a>
+                        <a href="#sk" >Skills</a>
+                        <a href="#por" >Position of<br>Responsibility</a>
+                        <a href="#cont" >Contact</a>
+                        </nav>
+                    </div>
             </div> 
         </header>
-        <div class="mainalign">
+        <div class="mainalign" id="about">
             <main>
                 <div>
                     <section>
                         <div>
                             <h1>Hi 👋</h1>
-                            <p>I'm Samarth Dongare,<br>Electronics & Computer Engineering(ECE) student at MIT ADT University.I have good knowledge in C(programming language) and object-oriented programming <abbr title="Object Oriented Programming">(OOP)</abbr>. I am also skilled in creating presentations using PowerPoint. Currently,i am focused on expanding my knowledge and skills in web development.With my foundation in programming and problem-solving,i am eager to contribute to the ever-evolving field of web development. 
+                            <p>I'm Samarth Dongare,<br>a passionate 3rd-year student at MIT ADT University,  pursuing a degree in Electronics and Computer Engineering. I am actively
+                            exploring programming, web development, WordPress, and graphic design, with hands on project experience and a strong
+                            commitment to continuous learning.
                             </p>
                         </div>
                     </section>
-                    <div class="section1">
+                    <div class="section1" id="edu">
                         <h2>Education</h2>
                             <div class="position">    
                                 <img src="MIT LOGO.png" alt="MIT ADT Logo" width="75">
@@ -33,7 +47,7 @@
                             </div>
                     </div>
                     <br>
-                    <div class="section1">
+                    <div class="section1" id="proj">
                         <h2>Projects</h2>
                         <ul>
                             <p>
@@ -53,7 +67,7 @@
                         </ul>
                     </div>
                     <br>
-                    <div class="section1">
+                    <div class="section1" id="ach">
                         <h2>Achievements</h2>
                         <ul>
                             <p>
@@ -63,23 +77,24 @@
                         </ul>
                     </div>
                     <br>
-                    <div class="section1">
+                    <div class="section1" id="sk">
                         <h2>Skills</h2>
                         <ul>
                         <p>
-                            <li>Programming languages: C, C++. </li>
-                            <li>Web Development: WordPress, HTML.</li>
+                            <li>Programming languages: C, C++, Python. </li>
+                            <li>Web Development: HTML, CSS, Javascript.</li>
+                            <li>Version Control Systtems: Git, Github.</li>
                             <li>Design Tools: Figma, Canva.</li>
                             <li>Languages Known:English, Hindi, Marathi</li>
                         </p>           
                         </ul>
                     </div>
                     <br>
-                    <div class="section1">
+                    <div class="section1" id="por">
                         <h2>Positions of Responsibility</h2>
                         <div class="position">
                             <img src="IEEE_logo.png" alt="IEEE Student Branch Logo" width="150"><p>
-                            IEEE Student Branch MIT-ADT <span class="time"> 2024-present </span>
+                            IEEE Student Branch MIT-ADT <span class="time"> 2024-2025 </span>
                             <br>
                             Chairperson
                             </p>
@@ -93,17 +108,21 @@
                         </div>
                         <div class="position">
                         <img src="ECAS_LOGO.png" alt="E-CAS Logo" width="50"><p>
-                            E-CAS Committee MIT-ADT <span class="time"> 2023-Present </span>
+                            E-CAS Committee MIT-ADT <span class="time"> 2023-2024 </span>
                             <br>
                             Social Media Team Member
                         </p>
                     </div>
                     </div>
                     <br>
-                        <div class="section1">
+                        <div class="section1" id="cont">
                             <h2>Contact</h2>
-                            <p >For more details feel free to contact with me<br><a href="mailto:sadongare7@gmail.com">Gmail</a><br>
-                            <a href="https://www.linkedin.com/in/samarth-dongare/" target="_main">Linkdin</a><!--add logo of linkdin instead of the statement--><br>
+                            <p>For more details feel free to contact with me<br>
+                                <section class="socialm">
+                                    <a href="mailto:sadongare7@gmail.com">Gmail</a><br>
+                                    <a href="https://www.linkedin.com/in/samarth-dongare/" target="_main">Linkdin</a><!--add logo of linkdin instead of the statement--><br>
+                                    <a href="https://github.com/samcode9">Github</a>
+                                </section>
                             </p>
                         </div>
                         <br>
@@ -123,4 +142,5 @@
         </footer>
     </div>
 </body>
+<script src="/script.js"></script>
 </html>
