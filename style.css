@@ -72,9 +72,8 @@ footer{
 .underdevelopment{
     text-align: center;
 }
-#minititle{
-    font-size: 18px;
-    font-weight: 550;
+h3{
+    margin-left: 15px;
 }
 .nav-toggle {
     margin-top: 10px;
@@ -131,6 +130,9 @@ footer{
         width:160px;
         height: 62px;
         object-fit: contain;
+    }
+    #size{
+        font-size: 28px;
     }
 }
 /*added this code for good view of site on mobiles also */
