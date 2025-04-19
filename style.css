@@ -17,6 +17,9 @@ header{
     text-decoration: none;
     padding: 30px;
 }
+#eduimg{
+    padding: 5px;
+}
 .mainalign{
     margin: auto;
     width: 700px;
@@ -35,8 +38,7 @@ a{
 }
 .socialm{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 #Thanks{
     text-align: center;
@@ -53,6 +55,12 @@ footer{
     display: flex;
     justify-content: flex-start; 
     align-items: center;
+}
+#im{
+    padding: 10px;
+    width:160px;
+    height: 62px;
+    object-fit: contain;
 }
 .time {
     color: white;
@@ -117,6 +125,12 @@ footer{
 @media screen and (max-width: 768px) {
     .mainalign {
         width: 90%;
+    }
+    #im{
+        padding: 10px;
+        width:160px;
+        height: 62px;
+        object-fit: contain;
     }
 }
 /*added this code for good view of site on mobiles also */
