@@ -72,8 +72,11 @@ footer{
 .underdevelopment{
     text-align: center;
 }
-h3{
+.proj{
+    display: flex;
+    justify-content: space-between;
     margin-left: 15px;
+    align-items: center;
 }
 .nav-toggle {
     margin-top: 10px;
